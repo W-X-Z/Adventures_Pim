@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameContainer = document.getElementById('game-container');
 
     let currentStoryId = '1';
-    let typingSpeed = 0; // 타이핑 속도 (밀리초)
+    let typingSpeed = 30; // 타이핑 속도 (밀리초)
 
     fetch('story.json')
         .then(response => response.json())
